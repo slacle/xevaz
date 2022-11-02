@@ -1,6 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
 body {
   background: #1c1917;
   color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+::-webkit-scrollbar-track:hover {
+  background: #292524;
+}
+::-webkit-scrollbar-thumb {
+  background: #57534e;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
 }
 
 .photos {
